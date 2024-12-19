@@ -46,6 +46,7 @@ class SupervisorTest extends IntegrationTest
             }
         }
 
+        $this->supervisor->scale(0);
         parent::tearDown();
     }
 
